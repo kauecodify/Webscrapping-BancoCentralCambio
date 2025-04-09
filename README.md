@@ -6,6 +6,7 @@
 ---
 
 📌 Visão Geral
+
 Este é um aplicativo desktop desenvolvido em Python para consulta de cotações do dólar e euro utilizando dados oficiais do Banco Central do Brasil. 
 
 O sistema inclui:
@@ -23,7 +24,7 @@ Interface intuitiva com logo do BCB
 ---
 
 🛠️ Pré-requisitos
-Python 3.8 ou superior
+- Python 3.8 ou superior
 
 Bibliotecas padrão do Python
 
@@ -36,6 +37,7 @@ pip install pillow
 ---
 
 🔐 Credenciais de Acesso
+
 Usuário padrão:
 
 Login: admin
@@ -45,15 +47,14 @@ Senha: 1234
 ---
 
 ⚙️ Funcionalidades
-Tela de Login
-Autenticação segura
 
-Exibição do logo do BCB
+Tela de Login
+- Autenticação segura
 
 Validação de credenciais
 
 Painel Principal
-Seletor de moedas:
+- Seletor de moedas:
 
 Dólar comercial (série 10813)
 
@@ -73,33 +74,36 @@ Data/hora da última atualização
 
 Ações:
 
-Atualizar dados
+- Atualizar dados
 
-Exportar para TXT
+- Exportar para TXT
 
-Exportar para CSV
+- Exportar para CSV
 
 ---
 
 📊 Fontes de Dados
+
 As cotações são obtidas diretamente da API pública do Banco Central do Brasil:
 
-Dólar: Série 10813
+- Dólar: Série 10813
 
-Euro: Série 21619
+- Euro: Série 21619
 
 ---
 
 🎨 Design
+
 Interface em azul claro com 34% de transparência
 
-Logo do BCB em todas as telas
-
 Layout responsivo e intuitivo
+
+![image](https://github.com/user-attachments/assets/37c9db54-0637-4652-bbbe-1d25e5ac2430)
 
 ---
 
 📁 Estrutura de Arquivos
+
 Os arquivos gerados são salvos no mesmo diretório do aplicativo:
 
 cotacao_dolar.txt / cotacao_euro.txt
@@ -109,6 +113,7 @@ cotacao_dolar.csv / cotacao_euro.csv
 ---
 
 🚀 Como Executar
+
 Clone o repositório ou baixe o arquivo .py
 
 Instale as dependências:
@@ -125,6 +130,7 @@ python sistema_cotacoes.py
 ---
 
 📝 Notas de Desenvolvimento
+
 Desenvolvido usando apenas bibliotecas padrão do Python (exceto Pillow)
 
 Código modular e documentado
