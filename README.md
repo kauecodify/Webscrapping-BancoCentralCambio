@@ -136,7 +136,7 @@ Compatível com Windows, macOS e Linux
 ---
 
 📜 Licença
-Este projeto está licenciado sob a licença MIT. Consulte o arquivo LICENSE para obter mais detalhes.
+Este projeto está licenciado sob a licença MIT FL-3.0.
 
 ✉️ Contato
 
